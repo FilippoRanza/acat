@@ -15,6 +15,7 @@ fn read_stdin() -> () {
             paint(rng.gen(), rng.gen(), rng.gen());
             print!("{}", c);
         }
+        println!();
     }
 }
 
